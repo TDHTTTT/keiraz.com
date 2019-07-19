@@ -267,7 +267,7 @@ class Header extends React.Component {
         </LogoWrapper>
         <div>
           <BLinks>
-            <Blog href="https://blog.keiraz.com">BLOG</Blog>
+            <Blog href="https://tdhttt.com">BLOG</Blog>
           </BLinks>
 
         </div>
