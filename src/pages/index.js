@@ -1,35 +1,70 @@
-import React from 'react'
-import Breakpoints from 'utils/breakpoints'
+import React from "react"
+import { Link, graphql } from "gatsby"
 
-import GlobalWrapper from 'components/global-wrapper'
-import Hero from 'components/hero'
-import Section from 'components/section'
-import About from 'components/about'
-import Work from 'components/work'
-import Writing from 'components/writing'
-import Quan from 'components/quan'
-import Footer from 'components/footer'
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
-export default class App extends React.Component {
+class BlogIndex extends React.Component {
   render() {
+    const { data } = this.props
+    const siteTitle = data.site.siteMetadata.title
+    const posts = data.allMarkdownRemark.edges
+
     return (
-      <GlobalWrapper>
-        {/* <Breakpoints /> */}
-        <Hero />
-        <Section id={'about'}>
-          <About />
-        </Section>
-        <Section id={'projects'}>
-          <Work />
-        </Section>
-        <Section id={'writing'}>
-          <Writing />
-        </Section>
-        <Section>
-          <Quan />
-        </Section>
-        <Footer />
-      </GlobalWrapper>
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO title="All posts" />
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <div key={node.fields.slug}>
+              <h3
+                style={{
+                  marginBottom: rhythm(1 / 4),
+                }}
+              >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {title}
+                </Link>
+              </h3>
+              <small>{node.frontmatter.date}</small>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.description || node.excerpt,
+                }}
+              />
+            </div>
+          )
+        })}
+      </Layout>
     )
   }
 }
+
+export default BlogIndex
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+          }
+        }
+      }
+    }
+  }
+`
