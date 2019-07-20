@@ -22,7 +22,7 @@ export default class App extends React.Component {
         <Section id={'projects'}>
           <Work />
         </Section>
-        <Section>
+        <Section id={'writing'}>
           <Writing />
         </Section>
         <Section>

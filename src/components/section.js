@@ -13,7 +13,7 @@ const Section = styled.section`
     margin: 0 24px;
   `}
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 `
 
 const Container = styled.div`
