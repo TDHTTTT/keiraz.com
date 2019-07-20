@@ -5,7 +5,7 @@ module.exports = {
     description: `HE NN`,
     siteUrl: `https://blog.keiraz.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `tdhttt`,
     },
   },
   plugins: [
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-142543240-2`,
       },
     },
     `gatsby-plugin-feed`,
