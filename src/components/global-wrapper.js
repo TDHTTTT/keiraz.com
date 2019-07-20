@@ -34,7 +34,7 @@ class GlobalWrapper extends React.Component {
           />
           <meta
             property="og:image"
-            content="/pn-900x600.png"
+            content="/land_kz_light_copy.png"
           />
           <meta property="og:description" content="Keira Zhu's Personal Blog" />
           <meta property="og:type" content="website" />

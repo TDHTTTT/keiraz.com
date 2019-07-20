@@ -31,13 +31,13 @@ function Quan() {
       rightColumn={
         <Fragment>
           <Big>
-            LuJi ChiFan * 500 !!!!!!!! 
+            LuJi ChiFan 
           </Big>
-          <p style={{ marginBottom: 0 }}>
-            LuJi ChiFan * 500 !!!!!!!! 
+          <p>
+            WU t la !!!!!!!! 
           </p>
           <p style={{ marginBottom: 0 }}>
-            WU t la !!!!!!!! 
+            XiaoBB Zhe shi liang duan dui qi
           </p>
         </Fragment>
       }
