@@ -37,7 +37,7 @@ function Quan() {
             WU t la !!!!!!!! 
           </p>
           <p style={{ marginBottom: 0 }}>
-            XiaoBB Zhe shi liang duan dui qi
+            XiaoBB Zhe shi liang duan dui qi. Jiu shi ru guo ni xie de chang yi dian. Ta jiu ying gai zi dong dui qi le ba.
           </p>
         </Fragment>
       }
