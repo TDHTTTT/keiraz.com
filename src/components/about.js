@@ -33,6 +33,9 @@ function About() {
           <Big>
             Hi. I'm Keira, a BoBo head.
           </Big>
+          <Big>
+            LuJi ChiFan * 50 !!!
+          </Big>
           <p style={{ marginBottom: 0 }}>
             Hi. I'm Keira, a BoBo head. I have a lot of HE and NN!
           </p>
