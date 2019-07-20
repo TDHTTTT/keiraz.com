@@ -7,6 +7,7 @@ import Section from 'components/section'
 import About from 'components/about'
 import Work from 'components/work'
 import Writing from 'components/writing'
+import Quan from 'components/quan'
 import Footer from 'components/footer'
 
 export default class App extends React.Component {
@@ -23,6 +24,9 @@ export default class App extends React.Component {
         </Section>
         <Section>
           <Writing />
+        </Section>
+        <Section>
+          <Quan />
         </Section>
         <Footer />
       </GlobalWrapper>

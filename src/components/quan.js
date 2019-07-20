@@ -24,17 +24,20 @@ const Big = styled.span`
   `}
 `
 
-function About() {
+function Quan() {
   return (
     <TwoColumns
-      leftColumn={<SectionHeading>About</SectionHeading>}
+      leftColumn={<SectionHeading>Quan</SectionHeading>}
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Keira, a BoBo head.
+            LuJi ChiFan * 500 !!!!!!!! 
           </Big>
           <p style={{ marginBottom: 0 }}>
-            Hi. I'm Keira, a BoBo head. I have a lot of HE and NN!
+            LuJi ChiFan * 500 !!!!!!!! 
+          </p>
+          <p style={{ marginBottom: 0 }}>
+            WU t la !!!!!!!! 
           </p>
         </Fragment>
       }
@@ -42,4 +45,4 @@ function About() {
   )
 }
 
-export default About
+export default Quan 
