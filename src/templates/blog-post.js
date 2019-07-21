@@ -27,8 +27,6 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.title}
         </h1>
-        <small><TagList tags={post.frontmatter.tags} /></small>
-				<small>Estimated Reading Time: {post.frontmatter.eta}</small>
         <p
           style={{
             ...scale(-1 / 5),
@@ -38,6 +36,8 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+        <small><TagList tags={post.frontmatter.tags} /></small>
+				<small>Estimated Reading Time: {post.frontmatter.eta}</small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
