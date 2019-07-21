@@ -27,7 +27,8 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.title}
         </h1>
-        <TagList tags={post.frontmatter.tags} />
+        <small><TagList tags={post.frontmatter.tags} /></small>
+				<small>Estimated Reading Time: {post.frontmatter.eta}</small>
         <p
           style={{
             ...scale(-1 / 5),
@@ -92,6 +93,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+				eta
         tags
       }
     }

@@ -8,6 +8,7 @@ public/
 yarn.lock
 .netlify/
 *.swp
+*.swo
 
 # Logs
 logs

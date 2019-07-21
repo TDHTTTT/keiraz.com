@@ -2,6 +2,7 @@
 title: Madame, Please Buy Tickets Here
 date: "2019-06-28T23:40:32.169Z"
 description: I couldn't find the app. 
+eta: 2 mins
 tags: ["Human", "Reality", "AI"]
 ---
 
