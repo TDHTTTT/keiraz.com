@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { TagList } from "../components/taglist"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.title}
         </h1>
+        <TagList tags={post.frontmatter.tags} />
         <p
           style={{
             ...scale(-1 / 5),
@@ -90,6 +92,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }
