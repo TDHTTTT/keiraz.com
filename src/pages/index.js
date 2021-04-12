@@ -26,7 +26,7 @@ export default class App extends React.Component {
           <Writing />
         </Section>
         <Section>
-          <Quan />
+          <Quan id={'quan'}/>
         </Section>
         <Footer />
       </GlobalWrapper>

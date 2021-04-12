@@ -19,9 +19,9 @@ function Footer() {
   return (
     <Section>
       <FooterText>
-        This page is open source, Check it out on&nbsp;
-        <a href="https://github.com/TDHTTTT/keiraz.com">Github</a>
-        <br />© 2019 Keira&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Made with ❤️ by &nbsp;
+        <a href="https://github.com/TDHTTTT/">TDHTTTT</a>
+        <br /> © 2019 - 2021 Keira Zhu
       </FooterText>
     </Section>
   )
