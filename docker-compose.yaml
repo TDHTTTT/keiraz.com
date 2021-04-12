@@ -1,0 +1,10 @@
+version: "3" 
+services: 
+  keira-blog: 
+    build:
+     context: ./
+     dockerfile: ./Dockerfile.dev
+    volumes: 
+      - ./:/app
+    ports:
+      - "8038:8000"
