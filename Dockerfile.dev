@@ -17,5 +17,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 8000
-CMD [ "/bin/bash" ]
-#CMD [ "npm", "run", "start" ]
+#CMD [ "/bin/bash" ]
+CMD [ "npm", "run", "start" ]
