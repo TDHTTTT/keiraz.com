@@ -54,11 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who has lots of HE and NN! 
-        {` `}
-        <a href={`https://${social.twitter}.com`}>
-          DaJiaHao! WoShiLinYiGePPBuBu!
-        </a>
+        Aspiring Data Scientist | USC MSBA 2022' | Actively looking for Data Scientist/Data Analyst (DS/DA) full-time positions
       </p>
     </div>
   )

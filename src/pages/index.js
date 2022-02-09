@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
               </h3>
               <small>{node.frontmatter.date}</small>
               <small><TagList tags={node.frontmatter.tags} /></small>
-              <small>Estimated Reading Time: {node.frontmatter.eta}</small>
+              <small>Estimated reading time: {node.frontmatter.eta}</small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,

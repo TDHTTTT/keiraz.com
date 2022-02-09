@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <small><TagList tags={post.frontmatter.tags} /></small>
-				<small>Estimated Reading Time: {post.frontmatter.eta}</small>
+				<small>Estimated reading time: {post.frontmatter.eta}</small>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
