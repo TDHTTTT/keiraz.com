@@ -5,6 +5,8 @@ description:  Solid data analytics skill + background in business ➡ insightful
 eta: 2 mins
 tags: ["resume"]
 ---
+&nbsp;
+
 
 ![resume](resume.jpg)
 
