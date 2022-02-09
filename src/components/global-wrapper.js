@@ -26,8 +26,8 @@ class GlobalWrapper extends React.Component {
       <Fragment>
         <Helmet>
           <html lang="en" />
-          <title>Keira Zhu</title>
-          <meta name="description" content="Keira Zhu's Personal Blog" />
+          <title>Haochen (Keira) Zhu</title>
+          <meta name="description" content="Haochen (Keira) Zhu's Personal Blog" />
           <meta
             name="keywords"
             content="design, art, economics, business"
@@ -36,10 +36,10 @@ class GlobalWrapper extends React.Component {
             property="og:image"
             content="/land_kz_light_copy.png"
           />
-          <meta property="og:description" content="Keira Zhu's Personal Blog" />
+          <meta property="og:description" content="Haochen (Keira) Zhu's Personal Blog" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://keiraz.com" />
-          <meta property="og:title" content="Keira Zhu" />
+          <meta property="og:title" content="Haochen (Keira) Zhu" />
 
           <link
             rel="apple-touch-icon"

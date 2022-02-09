@@ -256,18 +256,21 @@ class Header extends React.Component {
           {this.props.article && (
             <NameLink href="/">
               <NameArticle article={this.props.article}>
-               Keira Zhu 
+              Haochen (Keira) Zhu 
               </NameArticle>
             </NameLink>
           )}
           {!this.props.article && (
-            <Name article={this.props.article}>Keira Zhu</Name>
+            <Name article={this.props.article}>Haochen (Keira) Zhu</Name>
           )}
-          {!this.props.article && <Role>NN HE</Role>}
+          {!this.props.article && <Role>Data Scientist</Role>}
         </LogoWrapper>
         <div>
-          <BLinks>
+          {/* <BLinks>
             <Blog href="https://blog.keiraz.com">BLOG</Blog>
+          </BLinks> */}
+          <BLinks>
+            <Blog href="https://blog.keiraz.com">Portfolio  ⇢</Blog>
           </BLinks>
 
         </div>

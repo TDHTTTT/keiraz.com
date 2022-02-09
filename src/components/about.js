@@ -31,10 +31,10 @@ function About() {
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Keira, a BoBo head.
+            Hi! I'm Keira, located in California.
           </Big>
           <p style={{ marginBottom: 0 }}>
-            Hi. I'm Keira, a BoBo head. I have a lot of HE and NN!
+          🎓 An MSBA graduate student at USC, graduating in May, 2022!
           </p>
         </Fragment>
       }
