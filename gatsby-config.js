@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Keira Zhu`,
-    author: `Keira Zhu`,
-    description: `HE NN`,
+    title: `Haochen (Keira) Zhu`,
+    author: `Haochen (Keira) Zhu`,
+    description: `Aspiring Data Scientist`,
     siteUrl: `https://blog.keiraz.com`,
     social: {
       twitter: ``,
