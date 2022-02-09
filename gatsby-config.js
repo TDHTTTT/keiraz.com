@@ -5,7 +5,7 @@ module.exports = {
     description: `HE NN`,
     siteUrl: `https://blog.keiraz.com`,
     social: {
-      twitter: `tdhttt`,
+      twitter: ``,
     },
   },
   plugins: [

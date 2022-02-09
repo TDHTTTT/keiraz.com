@@ -63,9 +63,11 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          Keira Zhu All rights reserved - {new Date().getFullYear()}, Powered by 
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          Made with ❤️ by &nbsp;
+          <a href="https://github.com/TDHTTTT/">TDHTTTT</a> using 
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <br /> © {new Date().getFullYear()} Keira Zhu
         </footer>
       </div>
     )
