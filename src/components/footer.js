@@ -19,9 +19,11 @@ function Footer() {
   return (
     <Section>
       <FooterText>
-        Made with ❤️ by &nbsp;
-        <a href="https://github.com/TDHTTTT/">TDHTTTT</a>
-        <br /> © 2019 - 2021 Keira Zhu
+        {/* Made with ❤️ by &nbsp;
+        <a href="https://github.com/TDHTTTT/">TDHTTTT</a> using 
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+        <br /> © {new Date().getFullYear()} Haochen (Keira) Zhu
       </FooterText>
     </Section>
   )

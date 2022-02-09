@@ -24,10 +24,11 @@ function Work() {
       rightColumn={
         <Fragment>
           <Big>
-            Pnai, an amazing drink popular with HE.
+            I am a Data Scientist with a Business Vision.
           </Big>
           <p style={{ marginBottom: 0 }}>
-            Interned in the Pnai company.
+          💻 SQL Queries | Machine learning | Data Visualization | Python | R | Tableau
+      
           </p>
         </Fragment>
       }

@@ -22,12 +22,12 @@ export default class App extends React.Component {
         <Section id={'projects'}>
           <Work />
         </Section>
-        <Section id={'writing'}>
+        {/* <Section id={'writing'}>
           <Writing />
         </Section>
         <Section>
           <Quan id={'quan'}/>
-        </Section>
+        </Section> */}
         <Footer />
       </GlobalWrapper>
     )
