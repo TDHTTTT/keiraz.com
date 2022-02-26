@@ -10,4 +10,4 @@ tags: ["resume"]
 
 ![resume](resume.jpg)
 
-Please click [here](HaochenZhuResume.pdf) for the pdf version.
+Please click [here](HaochenZhuResume.pdf) for the pdf version of my resume.
