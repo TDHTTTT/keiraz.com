@@ -34,7 +34,7 @@ function About() {
             Hi! I'm Keira, located in California.
           </Big>
           <p style={{ marginBottom: 0 }}>
-          🎓 An MSBA graduate student at USC, graduating in May, 2022!
+          🎓 An Master of Science in Business Analytics (STEM) graduate student at USC, graduating in May, 2022!
           </p>
         </Fragment>
       }

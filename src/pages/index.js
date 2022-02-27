@@ -6,6 +6,7 @@ import Hero from 'components/hero'
 import Section from 'components/section'
 import About from 'components/about'
 import Work from 'components/work'
+import Skill from 'components/skill'
 import Writing from 'components/writing'
 import Quan from 'components/quan'
 import Footer from 'components/footer'
@@ -21,6 +22,9 @@ export default class App extends React.Component {
         </Section>
         <Section id={'projects'}>
           <Work />
+        </Section>
+        <Section id={'skills'}>
+          <Skill />
         </Section>
         {/* <Section id={'writing'}>
           <Writing />

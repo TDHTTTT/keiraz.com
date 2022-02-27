@@ -24,12 +24,22 @@ function Work() {
       rightColumn={
         <Fragment>
           <Big>
-            I am a Data Scientist with a Business Vision.
+            I am a Data Scientist with a business vision.
           </Big>
           <p style={{ marginBottom: 0 }}>
-          💻 SQL Queries | Machine learning | Data Visualization | Python | R | Tableau
-      
+          🦾 Expert in drawing insights from data.
+          
+
           </p>
+
+          <Big>
+          
+          </Big>
+          <p style={{ marginBottom: 0 }}>
+          😊 I am adept at understanding metrics and constraints in different domains and am familiar with the thinking process of making data-based decisions based on various trade-offs.
+          </p>
+
+
         </Fragment>
       }
     />
