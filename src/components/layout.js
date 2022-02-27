@@ -46,7 +46,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+           ⇠ Back to Keira's Portfolio List
           </Link>
         </h3>
       )
