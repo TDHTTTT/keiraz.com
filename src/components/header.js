@@ -270,7 +270,7 @@ class Header extends React.Component {
             <Blog href="https://blog.keiraz.com">BLOG</Blog>
           </BLinks> */}
           <BLinks>
-            <Blog href="https://blog.keiraz.com">Portfolio  ⇢</Blog>
+            <Blog href="https://portfolio.keiraz.com">Portfolio  ⇢</Blog>
           </BLinks>
 
         </div>
