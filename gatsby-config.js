@@ -3,7 +3,7 @@ module.exports = {
     title: `Haochen (Keira) Zhu`,
     author: `Haochen (Keira) Zhu`,
     description: `Aspiring Data Scientist`,
-    siteUrl: `https://blog.keiraz.com`,
+    siteUrl: `https://portfolio.keiraz.com`,
     social: {
       twitter: ``,
     },
